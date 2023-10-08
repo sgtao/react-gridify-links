@@ -8,7 +8,7 @@
 
 /* メイン領域のスタイリング */
 .main-content {
-  height: 80%;
+  height: 100%;
   max-height: calc(100vh - 240px);
   overflow: hidden;
 }
@@ -39,7 +39,7 @@
 .grid-item {
   width: 100%;
   min-width: 100px;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   text-align: center;
   border-radius: 0.5rem;
@@ -66,7 +66,7 @@
   background-color: #febcbd;
 }
 .grid-item:nth-child(5n+4) {
-  background-color: #3b7eab;
+  background-color: #acffc1;
 }
 .grid-item:nth-child(5n+5) {
   background-color: #9ad8f1;
@@ -76,7 +76,7 @@
 .grid-item {
   transition: 0.4s;
   z-index: 100;
-  /* 1から40までのnth-childに対してのスタイリング */
+  /* 1から64までのnth-childに対してのスタイリング */
 }
 .grid-item:nth-child(1) {
   view-transition-name: grid-item-1;
@@ -197,6 +197,78 @@
 }
 .grid-item:nth-child(40) {
   view-transition-name: grid-item-40;
+}
+.grid-item:nth-child(41) {
+  view-transition-name: grid-item-41;
+}
+.grid-item:nth-child(42) {
+  view-transition-name: grid-item-42;
+}
+.grid-item:nth-child(43) {
+  view-transition-name: grid-item-43;
+}
+.grid-item:nth-child(44) {
+  view-transition-name: grid-item-44;
+}
+.grid-item:nth-child(45) {
+  view-transition-name: grid-item-45;
+}
+.grid-item:nth-child(46) {
+  view-transition-name: grid-item-46;
+}
+.grid-item:nth-child(47) {
+  view-transition-name: grid-item-47;
+}
+.grid-item:nth-child(48) {
+  view-transition-name: grid-item-48;
+}
+.grid-item:nth-child(49) {
+  view-transition-name: grid-item-49;
+}
+.grid-item:nth-child(50) {
+  view-transition-name: grid-item-50;
+}
+.grid-item:nth-child(51) {
+  view-transition-name: grid-item-51;
+}
+.grid-item:nth-child(52) {
+  view-transition-name: grid-item-52;
+}
+.grid-item:nth-child(53) {
+  view-transition-name: grid-item-53;
+}
+.grid-item:nth-child(54) {
+  view-transition-name: grid-item-54;
+}
+.grid-item:nth-child(55) {
+  view-transition-name: grid-item-55;
+}
+.grid-item:nth-child(56) {
+  view-transition-name: grid-item-56;
+}
+.grid-item:nth-child(57) {
+  view-transition-name: grid-item-57;
+}
+.grid-item:nth-child(58) {
+  view-transition-name: grid-item-58;
+}
+.grid-item:nth-child(59) {
+  view-transition-name: grid-item-59;
+}
+.grid-item:nth-child(60) {
+  view-transition-name: grid-item-60;
+}
+.grid-item:nth-child(61) {
+  view-transition-name: grid-item-61;
+}
+.grid-item:nth-child(62) {
+  view-transition-name: grid-item-62;
+}
+.grid-item:nth-child(63) {
+  view-transition-name: grid-item-63;
+}
+.grid-item:nth-child(64) {
+  view-transition-name: grid-item-64;
 }
 .grid-item.clicked {
   position: absolute;

@@ -18,12 +18,12 @@ const MainComponent = () => {
     }, []);
 
     return (
-        <>
-            <h1>gridify-links</h1>
+        <div className="container">
+            <h2>gridify-links</h2>
             <main className="main-content">
                 <GridContain bookmarks={bookmarks} />
             </main>
-        </>
+        </div>
     )
 }
 

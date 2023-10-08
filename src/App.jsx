@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <MainComponent class="container"/>
+      <MainComponent className="container"/>
     </>
   )
 }

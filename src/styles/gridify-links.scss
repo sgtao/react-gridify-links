@@ -1,0 +1,120 @@
+/* gridify-links.scss */
+.container {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1280px;
+}
+
+/* メイン領域のスタイリング */
+.main-content {
+  height: 80%;
+  max-height: calc(100vh - 240px);
+  overflow: hidden;
+  @media (max-height: 640px) {
+    overflow: scroll;
+    max-height: 100vh;
+  }
+}
+
+/* グリッドのスタイルを定義 */
+.grid-container {
+  display: grid;
+  /* 列数を指定 */
+  grid-template-columns: repeat(6, 1fr);
+  /* グリッドアイテム間の隙間 */
+  gap: 10px;
+  /* view-transition名称設定 */
+  view-transition-name: card1;
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* グリッドアイテムのスタイルを定義 */
+.grid-item {
+  width: 100%;
+  min-width: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.5rem;
+
+  /* 表示テキストのスタイル */
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  /* 各四角形の背景色を指定 */
+  /* 色相（Hue）を変えた順番に色を付ける */
+  &:nth-child(5n + 1) {
+    background-color: #bae8dd;
+  }
+
+  &:nth-child(5n + 2) {
+    background-color: #eedac4;
+  }
+
+  &:nth-child(5n + 3) {
+    background-color: #febcbd;
+  }
+
+  &:nth-child(5n + 4) {
+    background-color: #3b7eab;
+  }
+
+  &:nth-child(5n + 5) {
+    background-color: #9ad8f1;
+  }
+  /* ... 他の四角形に対しても同様に指定 */
+}
+
+/* append style of view-transition */
+.grid-item {
+  transition: 0.4s;
+  z-index: 100;
+  /* 1から40までのnth-childに対してのスタイリング */
+  @for $i from 1 through 40 {
+    &:nth-child(#{$i}) {
+      view-transition-name: unquote("grid-item-#{$i}");
+    }
+  }
+
+  &.clicked {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    z-index: 2;
+  }
+  &.active {
+    view-transition-name: active-item;
+    grid-column: 1;
+    grid-column-end: 7;
+    grid-row: 1;
+    grid-row-end: 3;
+    z-index: 999;
+    aspect-ratio: 2/1;
+    @media (max-width: 480px) {
+      grid-column-end: 4;
+      grid-row-end: 3;
+      aspect-ratio: 1/2;
+    }
+    @media (max-height: 640px) {
+      aspect-ratio: 3/1;
+    }
+  }
+}
+.grid-container.expanded .grid-item:not(.active) {
+  opacity: 0.4;
+  pointer-events: none;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  // @media (max-width: 480px) {
+  //   grid-row-start: auto;
+  // }
+}

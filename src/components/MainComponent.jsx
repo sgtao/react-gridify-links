@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
+import GridContain from './GridContain';
 
 const MainComponent = () => {
-    let [bookmarks, setBookmarks] = useState([]);
-
+    const [bookmarks, setBookmarks] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -20,11 +20,9 @@ const MainComponent = () => {
     return (
         <>
             <h1>gridify-links</h1>
-            <ul>
-                {bookmarks.map((bookmark, index) => (
-                    <li key={(index + 1)}>{index + 1}_{bookmark.title}</li>
-                ))}
-            </ul>
+            <main className="main-content">
+                <GridContain bookmarks={bookmarks} />
+            </main>
         </>
     )
 }

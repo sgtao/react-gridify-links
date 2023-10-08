@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* gridify-links.scss */
+.container {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1280px;
+}
+
+/* メイン領域のスタイリング */
+.main-content {
+  height: 80%;
+  max-height: calc(100vh - 240px);
+  overflow: hidden;
+}
+@media (max-height: 640px) {
+  .main-content {
+    overflow: scroll;
+    max-height: 100vh;
+  }
+}
+
+/* グリッドのスタイルを定義 */
+.grid-container {
+  display: grid;
+  /* 列数を指定 */
+  grid-template-columns: repeat(6, 1fr);
+  /* グリッドアイテム間の隙間 */
+  gap: 10px;
+  /* view-transition名称設定 */
+  view-transition-name: card1;
+}
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* グリッドアイテムのスタイルを定義 */
+.grid-item {
+  width: 100%;
+  min-width: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.5rem;
+  /* 表示テキストのスタイル */
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* 各四角形の背景色を指定 */
+  /* 色相（Hue）を変えた順番に色を付ける */
+  /* ... 他の四角形に対しても同様に指定 */
+}
+.grid-item:hover {
+  cursor: pointer;
+}
+.grid-item:nth-child(5n+1) {
+  background-color: #bae8dd;
+}
+.grid-item:nth-child(5n+2) {
+  background-color: #eedac4;
+}
+.grid-item:nth-child(5n+3) {
+  background-color: #febcbd;
+}
+.grid-item:nth-child(5n+4) {
+  background-color: #3b7eab;
+}
+.grid-item:nth-child(5n+5) {
+  background-color: #9ad8f1;
+}
+
+/* append style of view-transition */
+.grid-item {
+  transition: 0.4s;
+  z-index: 100;
+  /* 1から40までのnth-childに対してのスタイリング */
+}
+.grid-item:nth-child(1) {
+  view-transition-name: grid-item-1;
+}
+.grid-item:nth-child(2) {
+  view-transition-name: grid-item-2;
+}
+.grid-item:nth-child(3) {
+  view-transition-name: grid-item-3;
+}
+.grid-item:nth-child(4) {
+  view-transition-name: grid-item-4;
+}
+.grid-item:nth-child(5) {
+  view-transition-name: grid-item-5;
+}
+.grid-item:nth-child(6) {
+  view-transition-name: grid-item-6;
+}
+.grid-item:nth-child(7) {
+  view-transition-name: grid-item-7;
+}
+.grid-item:nth-child(8) {
+  view-transition-name: grid-item-8;
+}
+.grid-item:nth-child(9) {
+  view-transition-name: grid-item-9;
+}
+.grid-item:nth-child(10) {
+  view-transition-name: grid-item-10;
+}
+.grid-item:nth-child(11) {
+  view-transition-name: grid-item-11;
+}
+.grid-item:nth-child(12) {
+  view-transition-name: grid-item-12;
+}
+.grid-item:nth-child(13) {
+  view-transition-name: grid-item-13;
+}
+.grid-item:nth-child(14) {
+  view-transition-name: grid-item-14;
+}
+.grid-item:nth-child(15) {
+  view-transition-name: grid-item-15;
+}
+.grid-item:nth-child(16) {
+  view-transition-name: grid-item-16;
+}
+.grid-item:nth-child(17) {
+  view-transition-name: grid-item-17;
+}
+.grid-item:nth-child(18) {
+  view-transition-name: grid-item-18;
+}
+.grid-item:nth-child(19) {
+  view-transition-name: grid-item-19;
+}
+.grid-item:nth-child(20) {
+  view-transition-name: grid-item-20;
+}
+.grid-item:nth-child(21) {
+  view-transition-name: grid-item-21;
+}
+.grid-item:nth-child(22) {
+  view-transition-name: grid-item-22;
+}
+.grid-item:nth-child(23) {
+  view-transition-name: grid-item-23;
+}
+.grid-item:nth-child(24) {
+  view-transition-name: grid-item-24;
+}
+.grid-item:nth-child(25) {
+  view-transition-name: grid-item-25;
+}
+.grid-item:nth-child(26) {
+  view-transition-name: grid-item-26;
+}
+.grid-item:nth-child(27) {
+  view-transition-name: grid-item-27;
+}
+.grid-item:nth-child(28) {
+  view-transition-name: grid-item-28;
+}
+.grid-item:nth-child(29) {
+  view-transition-name: grid-item-29;
+}
+.grid-item:nth-child(30) {
+  view-transition-name: grid-item-30;
+}
+.grid-item:nth-child(31) {
+  view-transition-name: grid-item-31;
+}
+.grid-item:nth-child(32) {
+  view-transition-name: grid-item-32;
+}
+.grid-item:nth-child(33) {
+  view-transition-name: grid-item-33;
+}
+.grid-item:nth-child(34) {
+  view-transition-name: grid-item-34;
+}
+.grid-item:nth-child(35) {
+  view-transition-name: grid-item-35;
+}
+.grid-item:nth-child(36) {
+  view-transition-name: grid-item-36;
+}
+.grid-item:nth-child(37) {
+  view-transition-name: grid-item-37;
+}
+.grid-item:nth-child(38) {
+  view-transition-name: grid-item-38;
+}
+.grid-item:nth-child(39) {
+  view-transition-name: grid-item-39;
+}
+.grid-item:nth-child(40) {
+  view-transition-name: grid-item-40;
+}
+.grid-item.clicked {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  z-index: 2;
+}
+.grid-item.active {
+  view-transition-name: active-item;
+  grid-column: 1;
+  grid-column-end: 7;
+  grid-row: 1;
+  grid-row-end: 3;
+  z-index: 999;
+  aspect-ratio: 2/1;
+}
+@media (max-width: 480px) {
+  .grid-item.active {
+    grid-column-end: 4;
+    grid-row-end: 3;
+    aspect-ratio: 1/2;
+  }
+}
+@media (max-height: 640px) {
+  .grid-item.active {
+    aspect-ratio: 3/1;
+  }
+}
+
+.grid-container.expanded .grid-item:not(.active) {
+  opacity: 0.4;
+  pointer-events: none;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}/*# sourceMappingURL=gridify-links.css.map */

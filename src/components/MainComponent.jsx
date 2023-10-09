@@ -1,13 +1,17 @@
 import { useState, useEffect } from 'react';
 import GridContain from './GridContain';
+import bookmarkJSON from "../assets/bookmarks.json"; 
 
 const MainComponent = () => {
     const [bookmarks, setBookmarks] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/assets/bookmarks.json');
-                const data = await response.json();
+                // const response = await fetch('/assets/bookmarks.json');
+                // const data = await response.json();
+                const response = bookmarkJSON;
+                console.log(response);
+                const data = response;
                 console.log(data);
                 setBookmarks(data.bookmarks);
             } catch (error) {

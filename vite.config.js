@@ -13,6 +13,8 @@ export default defineConfig({
     : './',
   build: {
     outDir: 'dist', // ここにビルド後のファイルが出力されます
-    assetsDir: 'assets',
+    assetsDir: process.env.GITHUB_PAGES
+      ? `/${process.env.REPOSITORY_NAME}/assets`
+      : 'assets',
   },
 })

@@ -6,7 +6,7 @@ const MainComponent = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/bookmarks.json');
+                const response = await fetch('/assets/bookmarks.json');
                 const data = await response.json();
                 console.log(data);
                 setBookmarks(data.bookmarks);

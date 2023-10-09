@@ -10,5 +10,9 @@ export default defineConfig({
   plugins: [react()],
   base: process.env.GITHUB_PAGES
     ? `/${process.env.REPOSITORY_NAME}` // レポジトリ名を設定
-    : './'
+    : './',
+  build: {
+    outDir: 'dist', // ここにビルド後のファイルが出力されます
+    assetsDir: 'assets',
+  },
 })

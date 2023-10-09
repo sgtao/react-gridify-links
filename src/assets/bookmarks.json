@@ -3,158 +3,197 @@
   "bookmarks": [
     {
       "title": "sute.jp",
+      "description": "ブラウザだけで仮メールアド作れるサイトだよ。",
       "url": "https://sute.jp"
     },
     {
       "title": "カーリル",
+      "description": "図書館の本の貸し出し状況が調べられるんだ。自分の近所の図書館を登録して、気になる本の在庫が一発でチェックできるよ。すごく便利！",
       "url": "https://calil.jp"
     },
     {
       "title": "Wayback Machine",
+      "description": "ウェブのタイムマシン！1996年からの古いウェブページを見られるんだ。ヤフーの昔のページとか、めっちゃシンプルでおもしろいよ。",
       "url": "https://archive.org/web/"
     },
     {
       "title": "MagicEraser",
+      "description": "写真の内容を部分的に消せるんだ。ビフォーアフターが見れるし、登録も不要。Photoshop使わなくてもいい時に重宝するよ。",
       "url": "https://magicstudio.com/ja/magiceraser"
     },
     {
       "title": "MONOSIZE",
+      "description": "100均の収納グッズ情報が全部詰まったサイト！サイズや色で検索できるし、失敗例も教えてくれる。100均好きにはたまらない。",
       "url": "https://monosizecatalog.com"
     },
     {
       "title": "TypingTube",
+      "description": "YouTubeで曲に合わせてタイピングの練習ができるよ。風な君の歌をタイピングするのは楽しいけど、激ムズだから注意！",
       "url": "https://typing-tube.net"
     },
     {
       "title": "青空文庫",
+      "description": "著作権の切れた小説がタダで読めるサイト！ブラウザよりもアプリで見ると読みやすいよ。",
       "url": "https://www.aozora.gr.jp"
     },
     {
       "title": "waifu2x",
+      "description": "イラストを高画質に大きくできるサービス。普通の引き伸ばしとは違って、AIを使ってナチュラルな感じにしてくれるんだ。",
       "url": "https://waifu2x.udp.jp/index.ja.html"
     },
     {
       "title": "認定整備済製品 - Apple（日本）",
+      "description": "Appleの中古品を安く買える公式サイト！整備されてるから見た目も性能も新品と変わらないよ。お得感があるね。",
       "url": "https://www.apple.com/jp/shop/refurbished"
     },
     {
       "title": "ilovepdf",
+      "description": "PDFいじりが得意なサイト。",
       "url": "https://www.ilovepdf.com/ja"
     },
     {
       "title": "Canva",
+      "description": "ブラウザでデザインができるツール。チラシやサムネ、簡単に作れるし、おしゃれなテンプレもあるから初心者にも優しいんだ。",
       "url": "https://www.canva.com"
     },
     {
       "title": "NameWiz",
+      "description": "AIが架空の名前を考えてくれる。タグ選んでチャットGPTが名前教えてくれるんだ。個性的な名前が欲しい時に便利！",
       "url": "https://namewiz.streamlit.app"
     },
     {
       "title": "Securl",
+      "description": "URLの安全性をチェックしてくれるサイト。怪しいリンク見つけたらここで診断してみよう。個人情報収集しそうなサイトもバッチリ教えてくれるよ。",
       "url": "https://securl.nu"
     },
     {
       "title": "K!!te",
+      "description": "ボカロ曲がたくさん聴けるサイト。自分の好みを選んで、それに合った曲がオススメされるんだ。ボカロ好きにはたまらない！",
       "url": "https://kiite.jp"
     },
     {
       "title": "SAMUNE",
+      "description": "カッコイイサムネが見つかるサイト。デザインのテイストで選べるし、Youtuberのサムネ探しにもってこいだよ。",
       "url": "https://thumbnail-gallery.net"
     },
     {
       "title": "O-DAN",
+      "description": "フリー画像を横断検索できるサイト。キーワード入れて40サイトから一気に検索できる。とっても便利！",
       "url": "https://o-dan.net/ja/"
     },
     {
       "title": "OKUMONO",
+      "description": "配信者向けの可愛い素材がいっぱい。ノーコピーライトのエモいイラストもあるよ。日本人向けの素材サイトって貴重だよね。",
       "url": "https://sozaino.site/"
     },
     {
       "title": "ノーコピーライトガール",
+      "description": "雰囲気ある女の子のイラストが無料で使えるサイト。ハルさんの作品は他にはない個性があって面白いよ。",
       "url": "https://fromtheasia.com/illustration/nocopyrightgirl"
     },
     {
       "title": "フキダシデザイン",
+      "description": "吹き出しデザインが1000種類以上！カスタマイズも細かくできるし、使いやすいからYouTuberにも人気だよ。",
       "url": "https://fukidesign.com"
     },
     {
       "title": "ためしがき",
+      "description": "商用可能フォントを一括で試せるサイト。フォントごとの見え方を確認し、気に入ったらクリックしてダウンロード可能。",
       "url": "https://tameshigaki.jp"
     },
     {
       "title": "ノイズレスサーチ",
+      "description": "Google検索から不要なサイトを排除し、個人ブログのレビューなどを見つけるのに便利。",
       "url": "http://pasokatu.com/nsearch"
     },
     {
       "title": "イメージ英単語",
+      "description": "英単語帳で、語源や意味の繋がりをフォーカス。例文や関連後の解説も充実。",
       "url": "https://imageeitango.com"
     },
     {
       "title": "Web漫画アンテナ",
+      "description": "各社のWeb漫画を一括でチェック。好きな漫画をマイリスト登録し、バラバラの出版社でもまとめて更新確認。",
       "url": "https://webcomics.jp"
     },
     {
       "title": "二次元画像詳細検索",
+      "description": "Google画像検索の二次元特化版。画像のURLやアップロードで、画像がどこで使用されているかを調べることができるよ。",
       "url": "https://ascii2d.net"
     },
     {
       "title": "Can You Run It",
+      "description": "ゲームが自分のPCのスペックでプレイできるか確認。診断結果を基に、購入を迷っている時などに便利。",
       "url": "https://www.systemrequirementslab.com/cyri"
     },
     {
       "title": "Vocaloard Charts",
+      "description": "ボカロ曲のYouTubeランキング。条件を細かくいじり、シンガーごとに限定してプレイリストとして再生可能。",
       "url": "https://vocaloard.injpok.tokyo"
     },
     {
       "title": "MiniTokyo3D",
+      "description": "リアルタイムで動く列車を見ることができる。特定の電車をクリックすると自動追尾できるよ。",
       "url": "https://minitokyo3d.com"
     },
     {
       "title": "NAVITIME 複数目的地ルート比較",
+      "description": "複数目的地を入力し、最適なルートを検索。旅行やポケモンセンター巡りに便利。",
       "url": "https://www.navitime.co.jp/route/comparison/point"
     },
     {
       "title": "Pokémon Game Sound Library",
+      "description": "ポケモンゲームの楽曲を視聴できる公式サイト。楽曲のファイルもダウンロード可能だよ。",
       "url": "https://soundlibrary.pokemon.co.jp"
     },
     {
       "title": "「分かりそう」で「分からない」でも「分かった」気になれるIT用語辞典",
+      "description": "IT用語の辞典で、分かりやすい解説。暇な時に見るのも楽しい。",
       "url": "https://wa3.i-3-i.info"
     },
     {
       "title": "MobyGames",
+      "description": "ゲームのデータベースサイト。開発者の情報が充実しており、ゲーム音楽ベスト100まとめWikiも紹介。",
       "url": "https://www.mobygames.com"
     },
     {
       "title": "みんなで決めるゲーム音楽ベスト100まとめwiki",
+      "description": "ゲーム音楽ベスト100を共に決めるためのまとめWiki。様々なゲーム音楽データベースとしての情報も充実しているよ。",
       "url": "https://w.atwiki.jp/gamemusicbest100/"
     },
     {
       "title": "Adobe Color",
+      "description": "配色ツール。配色ルールを選択し、色を選ぶ。Adobeカラーはほぼ無料で使用可能。",
       "url": "https://color.adobe.com/ja/"
     },
     {
       "title": "用例.jp",
+      "description": "単語を入れると用例が表示される辞書風サイト。新語や面白い用例もあるよ。",
       "url": "https://yourei.jp"
     },
     {
       "title": "SoundQuest",
+      "description": "音楽理論の学習サイト。AppleやSpotifyのプレビュー音声を聞きながら学べるよ。",
       "url": "https://soundquest.jp"
     },
     {
       "title": "官公庁オークション",
+      "description": "官公庁が行うオークション。消防車や救急車、不動産などが出品されるよ。",
       "url": "https://kankocho.jp"
     },
     {
       "title": "Clipdrop",
+      "description": "AI画像編集ツールのサイト。リライトツールで既存の画像に照明を当て直すことができるよ。",
       "url": "https://clipdrop.co/ja"
     },
     {
       "title": "電子レンジ 時間自動変換",
+      "description": "電子レンジ自動変換。目安時間が分からない時に使用可能だよ。",
       "url": "https://kotoritone.com/microwave/"
     },
     {
       "title": "ロケスマ",
+      "description": "お店を探す地図アプリ。日本全国のチェーン店情報を逐一更新されるよ。",
       "url": "https://www.locationsmart.org/"
     }
   ]

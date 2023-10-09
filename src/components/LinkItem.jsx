@@ -1,7 +1,7 @@
 // LinkItem.jsx
 import { useRef, useState } from "react";
 
-const LinkItem = ({ index, setExpanded, title, url }) => {
+const LinkItem = ({ index, setExpanded, title, url, description=null }) => {
     const gridItemRef = useRef(null);
     const [itemActive, setItemActive] = useState(false);
     function formatNumberToTwoDigits(n) {
@@ -25,11 +25,18 @@ const LinkItem = ({ index, setExpanded, title, url }) => {
         <div className="grid-item" ref={gridItemRef} onClick={handleClick}>
             <p>{showIndex}_{title}</p>
             {!!itemActive && (
-                <ul>
-                    <li>
-                        <a href={url} target="_blank" rel="noopener noreferrer">リンク</a>
-                    </li>
-                </ul>
+                <>
+                    <ul>
+                        <li>
+                            <a href={url} target="_blank" rel="noopener noreferrer">リンク</a>
+                        </li>
+                    </ul>
+                    {(description !== null) && (
+                        <p style={{whiteSpace: "pre-line"}}>
+                            {description}
+                        </p>
+                    )}
+                </>
             )}
         </div>
     );

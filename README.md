@@ -5,6 +5,11 @@
   * refer Youtube01 ：[【無料】『本当に役に立つ』"Webサイト"19選を発表していいかい？](https://www.youtube.com/watch?v=nFHPwsIuwW0)
   * refer Youtube02 ：[『本当に有能な』"Webサイト"20選を紹介するぜ！【ガチ厳選】](https://www.youtube.com/watch?v=AqOhbuEyBpA)
 
+### Setup GitHub Action
+- Viteの[Deploying a Static Site](https://vitejs.dev/guide/static-deploy.html#github-pages)に沿ってGitHub Pagesにデプロイする
+  * [build.yaml](.github/workflows/main.yml)
+
+
 ## Vite + React
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

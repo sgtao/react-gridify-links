@@ -8,7 +8,9 @@ dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // eslint-disable-next-line no-undef
   base: process.env.GITHUB_PAGES
+    // eslint-disable-next-line no-undef
     ? `/${process.env.REPOSITORY_NAME}` // レポジトリ名を設定
     : './',
   build: {

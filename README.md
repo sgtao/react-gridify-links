@@ -7,8 +7,14 @@
 
 ### Setup GitHub Action
 - Viteの[Deploying a Static Site](https://vitejs.dev/guide/static-deploy.html#github-pages)に沿ってGitHub Pagesにデプロイする
-  * [build.yaml](.github/workflows/main.yml)
+  * [workflows/main.yaml](.github/workflows/main.yml)
 
+#### 一度、`npm run build`を試す
+- テンプレートの`main.yaml`の場合、`package-lock.json`を参照するので、一度、`npm run build`まで実施する
+```sh
+npm i
+npm run build
+```
 
 ## Vite + React
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
